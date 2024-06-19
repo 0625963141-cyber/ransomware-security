@@ -1,0 +1,17 @@
+{
+  "name": "ransomware-security-windows",
+  "version": "2.0.0",
+  "description": "Application de protection contre les ransomwares",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "cs7778503",
+  "license": "BSD",
+  "devDependencies": {
+    "electron": "^16.0.0",
+    "electron-builder": "^22.14.4"
+  }
+}
